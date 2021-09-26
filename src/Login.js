@@ -65,6 +65,11 @@ const Login = () => {
                     <div className="logincontainer">
                         <div className="registration">
                             <form onSubmit={submitData}>
+                                <h2 style={{
+                                    position: "relative",
+                                    top: "-15vh",
+                                    color: "rgb(0 0 0 / 78%)"
+                                }} >Log In to Your Account</h2>
                                 <label htmlFor="html">Enter Your Email ID</label><br />
                                 <input
                                     type="text"

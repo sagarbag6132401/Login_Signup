@@ -83,6 +83,11 @@ const Signup = () => {
                     <div className="logincontainer">
                         <div className="registration">
                             <form onSubmit={submitData}>
+                            <h2 style={{
+                                    position: "relative",
+                                    top: "-2vh",
+                                    color: "rgb(0 0 0 / 78%)"
+                                }} >Register Here</h2>
                                 <label htmlFor="html1">Enter Your First Name</label><br />
                                 <input
                                     type="text"
